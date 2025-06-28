@@ -1,80 +1,80 @@
 # 📁 Employee Management System (First Semester Project)
 
-A simple command-line-based **Employee Management System** written in C, designed as part of a first-semester Computer Engineering course. The project allows basic CRUD operations on employee records and interacts with a CSV file for data persistence.
+A simple **command-line Employee Management System** written in C, developed as a first-semester Computer Engineering project. The system enables basic CRUD operations on employee records, with data stored in a CSV file for persistence.
+
+> 🖥️ **First Semester Computer Engineering Project**
 
 ---
 
-## 📌 Features
+## ✅ Features
 
-* ✅ Create a new CSV file for employee records
-* 📖 Read and display all records
-* 📝 Append new employee records
-* ➕ Add new employee details
-* ✏️ Edit existing employee records by ID
-* ❌ Delete specific employee entries
-* 🔍 Query and display information of an employee by ID
-
----
-
-## 🛠️ Technologies Used
-
-* **Language**: C
-* **File Format**: CSV (Comma-Separated Values)
-* **Compiler**: GCC / Code::Blocks
+- 📄 Create a new CSV file for employee records
+- 👀 View all employee records
+- ➕ Append new employee records
+- 📝 Add employee details
+- ✏️ Edit employee records by ID
+- ❌ Delete employee records
+- 🔍 Search for an employee by ID
 
 ---
 
-## 📂 File Structure
+## 🧠 Concepts Used
 
-```
-📁 EmployeeManagementSystem/
-├── employees.csv      # Data file for employee records
-├── main.c             # Source code
-└── README.md          # Project documentation
-```
-
----
-
-## 🧠 Functional Overview
-
-* **Data Model**: `Employee` struct with fields like ID, Name, Contact, Address, Post, Email, Salary.
-* **Storage**: Uses a fixed-size array to hold up to 100 employees.
-* **Persistence**: File operations are done using standard C I/O to read/write CSV files.
+- C programming for file handling and data structures
+- Structs for modeling employee data
+- Fixed-size arrays for in-memory storage (up to 100 employees)
+- Standard C I/O for CSV file operations
+- Menu-driven CLI application design
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ How to Run
 
-### 1. Compilation
+### Requirements
 
-Use any C compiler to compile:
+- C compiler (GCC or Code::Blocks)
+
+### Compilation
 
 ```bash
 gcc main.c -o employee_management
 ```
 
-### 2. Run the Program
+### Running
 
 ```bash
 ./employee_management
 ```
 
-### 3. Menu Options
+---
+
+## 📋 Menu Options
 
 ```
-1. Create a new File
-2. Read a file
-3. Append the file
-4. Add an employee
-5. Edit specific records given employee ID
-6. Delete a certain record of an employee
-7. Generate a query for an employee
+1. Create a new file
+2. Read file
+3. Append file
+4. Add employee
+5. Edit employee by ID
+6. Delete employee by ID
+7. Search employee by ID
 8. Exit
 ```
 
 ---
 
-## 📋 Sample Entry Format (CSV)
+## 📂 Project Structure
+
+```
+EmployeeManagementSystem/
+├── employees.csv      # Employee data
+├── main.c             # Source code
+└── README.md          # Documentation
+```
+
+---
+
+## 📝 Sample CSV Entry
 
 ```
 EmpID,Name,Contact No.,Address,Post,Email,Salary
@@ -83,28 +83,30 @@ EmpID,Name,Contact No.,Address,Post,Email,Salary
 
 ---
 
-## 🎯 Educational Objectives
+## 🎯 Educational Purpose
 
-* Practice with C structures and file handling
-* Understand how to design and manipulate custom data models
-* Develop structured menu-driven command-line applications
+This project helps students:
 
----
-
-## 🧑‍💻 Contributors
-
-* Siddharth *(Computer Engineering, First Semester)*
+- Practice C structures and file handling
+- Design and manipulate custom data models
+- Develop menu-driven CLI applications
 
 ---
 
-## 📎 License
+## 👨‍💻 Contributor
 
-This project is open-source and can be reused for educational purposes.
+- **Siddharth** (First Semester, Computer Engineering)
 
 ---
 
-## 🙌 Acknowledgements
+## 📜 License
 
-Thanks to faculty and peers for continuous guidance and support during the development of this project.
+This project is open-source and intended for educational use only.
+
+---
+
+## 🙏 Acknowledgments
+
+Thanks to faculty and peers for their guidance and support during this project.
 
 ---
