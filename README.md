@@ -98,7 +98,7 @@ This project helps students:
 ## 👨‍💻 Author
 
 - **Project by:** Siddharth
-- **Semester:** Second
+- **Semester:** First
 - **Program:** B.E. Computer Engineering
 
 ---
