@@ -93,11 +93,16 @@ This project helps students:
 
 ---
 
-## 👨‍💻 Contributor
 
-- **Siddharth** (First Semester, Computer Engineering)
+
+## 👨‍💻 Author
+
+- **Project by:** Siddharth
+- **Semester:** Second
+- **Program:** B.E. Computer Engineering
 
 ---
+
 
 ## 📜 License
 
