@@ -1,44 +1,110 @@
-# 👨‍💼 Employee Management System (C Project)
+# 📁 Employee Management System (First Semester Project)
 
-This project is a **simple Employee Management System** built in **C language** using **file handling and structures**. It allows users to manage employee records including creation, modification, deletion, and retrieval — all saved in a `.csv` file.
-
-> 📘 Developed as part of the **Computer Engineering - First Semester Project**.
+A simple command-line-based **Employee Management System** written in C, designed as part of a first-semester Computer Engineering course. The project allows basic CRUD operations on employee records and interacts with a CSV file for data persistence.
 
 ---
 
-## 📂 Features
+## 📌 Features
 
-- 🆕 Create a new employee file with CSV format
-- 📖 Read and display employee records from the file
-- ➕ Add a new employee with details like:
-  - ID
-  - Name
-  - Contact Number
-  - Address
-  - Post
-  - Email
-  - Salary
-- 📝 Edit employee details using Employee ID
-- ❌ Delete an employee by ID
-- 🔍 Search (query) an employee record by ID
-- 🗂️ Append multiple employee records to file
-- 📋 Menu-driven interface for ease of use
+* ✅ Create a new CSV file for employee records
+* 📖 Read and display all records
+* 📝 Append new employee records
+* ➕ Add new employee details
+* ✏️ Edit existing employee records by ID
+* ❌ Delete specific employee entries
+* 🔍 Query and display information of an employee by ID
 
 ---
 
-## 🧠 Concepts Used
+## 🛠️ Technologies Used
 
-- Structures in C
-- File handling (`fopen`, `fprintf`, `fscanf`, `fgets`, etc.)
-- Arrays and string manipulation
-- Conditional logic and loops
-- Modular function-based programming
+* **Language**: C
+* **File Format**: CSV (Comma-Separated Values)
+* **Compiler**: GCC / Code::Blocks
 
 ---
 
-## ⚙️ How to Run
+## 📂 File Structure
 
-### 💻 Compile
+```
+📁 EmployeeManagementSystem/
+├── employees.csv      # Data file for employee records
+├── main.c             # Source code
+└── README.md          # Project documentation
+```
+
+---
+
+## 🧠 Functional Overview
+
+* **Data Model**: `Employee` struct with fields like ID, Name, Contact, Address, Post, Email, Salary.
+* **Storage**: Uses a fixed-size array to hold up to 100 employees.
+* **Persistence**: File operations are done using standard C I/O to read/write CSV files.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Compilation
+
+Use any C compiler to compile:
 
 ```bash
-gcc employee_management.c -o employee_management
+gcc main.c -o employee_management
+```
+
+### 2. Run the Program
+
+```bash
+./employee_management
+```
+
+### 3. Menu Options
+
+```
+1. Create a new File
+2. Read a file
+3. Append the file
+4. Add an employee
+5. Edit specific records given employee ID
+6. Delete a certain record of an employee
+7. Generate a query for an employee
+8. Exit
+```
+
+---
+
+## 📋 Sample Entry Format (CSV)
+
+```
+EmpID,Name,Contact No.,Address,Post,Email,Salary
+101,JohnDoe,9800000000,NewYork,Manager,john@example.com,65000.00
+```
+
+---
+
+## 🎯 Educational Objectives
+
+* Practice with C structures and file handling
+* Understand how to design and manipulate custom data models
+* Develop structured menu-driven command-line applications
+
+---
+
+## 🧑‍💻 Contributors
+
+* Siddharth *(Computer Engineering, First Semester)*
+
+---
+
+## 📎 License
+
+This project is open-source and can be reused for educational purposes.
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to faculty and peers for continuous guidance and support during the development of this project.
+
+---
